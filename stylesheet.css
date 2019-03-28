@@ -127,8 +127,7 @@ a {
 
 .item-small {
   width: 33.3%;
-  height: 100%;
-  min-height: 128px;
+  height: auto;
 }
 
 .item h1 {
