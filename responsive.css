@@ -61,11 +61,13 @@
 @media (max-width: 670px) {
 
     .row-first {
-        height: 80%;
+        height: 60%;
     }
 
     .row-second {
-        height: 20%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
     }
 
     .design {
@@ -83,6 +85,11 @@
         line-height: 64px;
         width: 336px;
         margin: 48px auto 16px;
+    }
+
+    .item-small {
+        width: 100%;
+        height: 33.3%;
     }
 
     .item-small h2 {

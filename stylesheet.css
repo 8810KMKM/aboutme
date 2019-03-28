@@ -5,6 +5,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #525252;
   
 }
 
@@ -128,7 +129,6 @@ a {
 .item-small {
   width: 33.3%;
   height: 100%;
-  min-height: 96px; 
 }
 
 .item h1 {
