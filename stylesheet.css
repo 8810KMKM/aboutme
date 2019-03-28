@@ -103,14 +103,12 @@ a {
 
 
 .item-middle a {
+  font-family: 'Fascinate', cursive;
   display: block;
-  background-color: #525252;
-  color: whitesmoke;
-  opacity: 0;
-  height: 100%;
-  /* padding: 176px 0 220px; */
-  font-size: 48px;
-  transition: .4s;
+  color: #633295;
+  padding-top: 60%;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .item-bgimg a:hover {
@@ -151,7 +149,6 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  transition: .4s;
   /* border-bottom: 4px solid dimgray; */
 }
 
@@ -264,7 +261,6 @@ a {
   text-align: center;
   vertical-align: middle;
   overflow: hidden;
-  transition: .4s;
 }
 
 .btn-circle-flat:hover {
