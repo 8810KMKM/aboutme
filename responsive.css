@@ -101,4 +101,8 @@
         width: 360px;
         line-height: 2;
     }
+
+    .design-upcoming .item p {
+        font-size: 24px;
+    }
 }
