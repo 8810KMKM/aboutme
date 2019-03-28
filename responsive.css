@@ -12,7 +12,7 @@
     }
 
     .item-middle h1 {
-        margin: 32px auto 16px;
+        margin: 24px auto;
     }
 
     .container-large {
@@ -84,7 +84,7 @@
         font-size: 40px;
         line-height: 64px;
         width: 336px;
-        margin: 48px auto 16px;
+        margin: 16px auto;
     }
 
     .item-small {
@@ -93,6 +93,7 @@
     }
 
     .item-small h2 {
+        padding: 24px 0;
         font-size: 24px;
     }
 
@@ -105,13 +106,9 @@
         display: none;
     }
 
-    .memu ul {
-        float: none;
-    }
-
     .menu li {
         font-size: 24px;
-        padding: 24px 16px;
+        padding: 16px;
     }
 
     .content p {
