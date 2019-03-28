@@ -1,0 +1,28 @@
+html, body, .container {
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+
+    .first-row {
+        height: 60%;
+        background-color: teal;
+
+        .item {
+            width: 50%;
+        }
+    }
+
+    .second-row {
+        height: 40%;
+        background-color: aquamarine;
+    }
+
+}
+ 
+
+
+
+

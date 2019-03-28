@@ -1,0 +1,286 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+header {
+  height: 7%;
+  width: 100%;
+  background-color: #633295;
+}
+
+footer {
+  height: 10%;
+  background-color: #525252;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 83%;
+}
+
+.container-large {
+  height: 186%;
+}
+
+.container-auto {
+  height :auto;
+  min-height: 83%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.top {
+  height: 100%;
+}
+
+.row, .develop {
+  width: 100%;  
+  display: flex;
+}
+
+
+.develop {
+  height: 50%;
+}
+
+.design {
+  width: 50%;
+  height: auto;
+}
+
+.design-upcoming {
+}
+
+.row-first {
+  height: 75%;
+}
+
+.row-second {
+  height: 100%;
+  height: 25%;
+}
+
+.item {
+  border: 4px solid #525252;
+  background-color: whitesmoke;
+  color: #525252;
+  text-align: center;
+  font-family: 'Quicksand', 'Noto Sans JP', sans-serif;
+}
+
+.item-bgimg {
+  background-image: url(./images/climb.jpg);
+  opacity: 0.85252525;
+  border: none;
+  background-size: cover;
+}
+
+.item-middle {
+  width: 50%;
+}
+
+.item-dev-img {
+  width: 50%;
+  background-color: rgba(82, 82, 82, 0.95);
+  color: whitesmoke;
+}
+
+.item-dev-about {
+  width: 100%;
+}
+
+.item-design {
+  height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.item-middle a {
+  display: block;
+  background-color: #525252;
+  color: whitesmoke;
+  opacity: 0;
+  padding: 176px 0 220px;
+  font-size: 48px;
+  transition: .4s;
+}
+
+.item-bgimg a:hover {
+  display: block;
+  opacity: 0.8;
+}
+
+.item-topic {
+  background-color: #525252;
+  color: whitesmoke;
+}
+
+.item-small {
+  width: 33.3%;
+}
+
+.item h1 {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: bold;
+  display: block;
+  width: 400px;
+  margin: 160px auto 16px;
+  border-bottom: 4px solid whitesmoke;
+}
+
+.item-middle h2 {
+  color: #525252;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.item-small h2 {
+  color: #525252;
+  font-size: 32px;
+  line-height: 144px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .4s;
+  /* border-bottom: 4px solid dimgray; */
+}
+
+.item-small a :hover {
+  background-color: #633295;
+  color: whitesmoke;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 32px;
+}
+
+.menu p, .menu li {
+  float: left;
+  padding: 30px; 
+}
+
+.menu li {
+  font-size: 31px;
+  padding: 24px;
+}
+
+.menu ul {
+  float: right;
+}
+
+.title {
+  width: 100%;
+  font-family: 'Fascinate', cursive;
+  color: whitesmoke;
+}
+
+.title p {
+  display: block;
+  width: 64px;
+  margin-left: 64px;
+  line-height: 48px;
+  font-size: 30px;
+}
+
+
+.item-dev-img img {
+  width: 100%;
+  height: auto;
+  margin: 64px 0 48px;
+}
+
+.item-dev-img h2 {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.item-design img {
+  margin: 0;
+  width: 80%;
+  height: auto;
+  padding: 24px 0;
+}
+
+.item-design p {
+  padding-bottom: 24px;
+}
+
+.content {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: whitesmoke;
+  color: #525252;
+  padding: 120px 0;
+}
+
+.content h3 {
+  color: #633295;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.content p {
+  text-align: left;
+  line-height: 2;
+  display: block;
+  height: 200px;
+  width: 596px;
+  margin: 0 auto;
+}
+
+.btn-circle-flat {
+  font-family: 'Fascinate', cursive;
+  position: fixed;
+  top: 85%;
+  left: 8px;
+  z-index: 5;
+  display: inline-block;
+  text-decoration: none;
+  background: rgba(99, 50, 149, 0.8);
+  color: whitesmoke;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn-circle-flat:hover {
+  background: #633295;
+}
+
+.design-upcoming .item {
+  color: #633295;
+  font-family: 'Quicksand', cursive;
+}
+
+.design-upcoming .item p {
+  display: block;
+  width: 240px;
+  font-size: 32px;
+  padding: 200px 0;
+  line-height: 2;
+  margin: 0 auto;
+  font-weight: bold;
+}
