@@ -4,6 +4,8 @@
         flex-direction: column-reverse;
     }
 
+    
+
     .item-middle {
         width: 99.9%;
         height: 50%;
@@ -57,6 +59,15 @@
 }
 
 @media (max-width: 670px) {
+
+    .row-first {
+        height: 80%;
+    }
+
+    .row-second {
+        height: 20%;
+    }
+
     .design {
         flex-grow: row;
         width: 100%;
